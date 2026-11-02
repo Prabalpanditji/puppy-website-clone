@@ -1,6 +1,6 @@
 import type { Viewport } from "next";
-import Curtain from "@/components/site/Curtain";
-import Footer from "@/components/site/Footer";
+import Curtain from "@/components/ui/Curtain";
+import Footer from "@/components/ui/Footer";
 import Shell from "@/components/layout/Shell";
 import "./globals.css";
 import "./extra.css";

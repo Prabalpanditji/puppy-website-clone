@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { pages } from "@/components/site/pages";
+import { pages } from "@/components/ui/pages";
 
 type Props = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;

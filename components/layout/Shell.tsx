@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
-import Header from "@/components/site/Header";
-import Behaviors from "@/components/fx/Behaviors";
-import Interactions from "@/components/fx/Interactions";
-import CurtainDriver from "@/components/fx/CurtainDriver";
+import Header from "@/components/ui/Header";
+import Behaviors from "@/components/effects/Behaviors";
+import Interactions from "@/components/effects/Interactions";
+import CurtainDriver from "@/components/effects/CurtainDriver";
 
 /** Header scroll state; footer arrives as server-rendered markup. */
 export default function Shell({ children, footer }: { children: React.ReactNode; footer: React.ReactNode }) {

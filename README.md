@@ -1,4 +1,4 @@
-# InstaBiz
+﻿# InstaBiz
 
 Premium puppy showroom web app — browse available pups, profiles, happy families, FAQ, and contact.
 
@@ -19,13 +19,11 @@ npm run build && npm start
 ## Project layout
 
 ```
-app/                  Next.js routes + global styles
+app/                     Next.js routes + global styles
 components/
-  layout/             App shell (header scroll state)
-  site/               Header, Footer, Curtain, page views
-  fx/                 Animations, paw trail, interactions
-src/config/           Site brand + contact placeholders
-public/
-  brand/              Logo assets
-  img/ · o/           Photos & static assets
+  layout/                App shell
+  ui/                    Header, Footer, Curtain, page views
+  effects/               Animations & interactions
+lib/                     Site config
+public/                  Brand + photo assets
 ```
