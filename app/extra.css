@@ -1,0 +1,5 @@
+/* standalone buddies: let clicks reach the drawing (original only enables this for the roaming pup) */
+.pup-buddy svg :is(path,ellipse,circle){pointer-events:visiblePainted;cursor:url(/o/5e454d87c6db.svg) 9 6,pointer}
+.pup-buddy svg [opacity="0"],.pup-buddy svg [opacity="0"] *{pointer-events:none!important}
+/* when the roaming pup is active its own stand-ins stay inert */
+html[data-pup] .pup-stop>.pup-buddy svg :is(path,ellipse,circle){pointer-events:none;cursor:auto}
