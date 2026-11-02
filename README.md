@@ -29,8 +29,3 @@ public/
   brand/              Logo assets
   img/ · o/           Photos & static assets
 ```
-
-## Notes
-
-- Brand and contact details live under `src/config/site.ts` — swap placeholders for your own WhatsApp, email, and socials before going live.
-- No third-party author/company identity is wired into this repo; clone leftovers were removed.
